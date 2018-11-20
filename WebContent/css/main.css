@@ -1,0 +1,51 @@
+.navbar .nav > li,.navbar .nav > li > a {
+color: #ffffff!important;
+}
+.navbar .nav > li > a:HOVER{
+color: #26D512!important;
+}
+.navbar .brand{
+	padding: 0px 0px 0px!important;
+}
+#divMessage{
+display: none;
+position: fixed;
+width:100%;
+text-align: center;
+padding-top: 10px;
+}
+#divMessage #spMessage{
+background-color: black;
+color: white;
+padding: 5px;
+border: 1px solid red;
+}
+body 
+{
+padding-top: 60px;
+padding-bottom: 40px;
+min-width: 400px;
+}
+
+#imgSpinner{
+	display: none;
+	position:absolute;
+	left:40%;
+	top:20%;
+	z-index: 99999999;
+}
+#divLayer{
+	background-color:gray;
+	display: none;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index: 99999998;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";       /* IE 8 */
+filter: alpha(opacity=30);  /* IE 5-7 */
+-moz-opacity: 0.3;          /* Netscape */
+-khtml-opacity: 0.2;        /* Safari 1.x */
+opacity: 0.2;               /* Good browsers */
+}

@@ -1,0 +1,65 @@
+#divCodeWrapper pre{
+border:none;
+
+	}
+#divCodeWrapper{
+background-color:#f5f5f5;
+border: 1px solid #ccc;
+border: 1px solid rgba(0, 0, 0, 0.15);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+width:100%;
+height:300px;
+position:relative;
+overflow:auto;
+float: left;
+}
+#divCode, #divCodeShow{
+position:absolute;
+top:0;
+left:0px;
+width:auto;
+height:auto;
+border: none;
+}
+#divCode{
+background:transparent;
+color:black;
+z-index:2;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";       /* IE 8 */
+filter: alpha(opacity=1);  /* IE 5-7 */
+-moz-opacity: 0.1;          /* Netscape */
+-khtml-opacity: 0.1;        /* Safari 1.x */
+opacity: 0.1;               /* Good browsers */
+}
+#divCodeShow{
+z-index:1;
+}
+li{
+white-space:nowrap;
+}
+
+#divConsole
+{
+position:relative;
+border: 1px solid #ccc;
+float:right; 
+width:100%; 
+height:300px; 
+background-color: #F5F5F5; 
+font-size: small;
+overflow: scroll;
+}
+
+#divConsole #resize{
+	position:absolute;
+	top:5px;
+	right:5px;
+	border:1px solid gray;
+	cursor: pointer;
+}
+.postCode#divCodeWrapper{width:470px!important;}
+.postCode#divCodeWrapper #divCodeShow, .postCode#divCodeWrapper #divCode{
+	width: 100%!important;
+}

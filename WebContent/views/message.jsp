@@ -1,0 +1,1 @@
+<center><h3 style="color:green">${message}</h3></center>
